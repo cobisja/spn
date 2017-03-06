@@ -29,14 +29,14 @@ For all about errors and exception triggering, please take a look at:
 Require the latest version of Spn into your project
  
 ```
-composer require bake250/spn
+composer require cobisja/spn
 ```
 
 Or you can add it directly into your project's composer.json file:
 ```
 {
     "require": {
-        "bake250/spn": "^0.1.0"
+        "cobisja/spn": "^0.1.0"
     }
 }
 ```
@@ -46,7 +46,7 @@ Register the Spn Service Provider into your app configuration file `config/app.p
 'providers' => [
     // ...
     
-    Bake250\Spn\SpnServiceProvider::class,
+    cobisja\Spn\SpnServiceProvider::class,
 ]
 ```
 Then publish the package config file:
@@ -194,9 +194,8 @@ it replies with a `notification_key`:
    "notification_key": "APA91bGHXQBB...9QgnYOEURwm0I3lmyqzk2TXQ"
 }
 ```
-
 ## License
-Copyright (c) 2017 - Bake250
+Copyright (c) 2017 - Cobis (jcobis@gmail.com)
 
 MIT License
 
