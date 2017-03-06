@@ -39,12 +39,12 @@ return [
     /**
      * FCM endpoint.
      */
-    'fcm_endpoint' => env('FCM_ENDPOINT'),
+    'fcm_endpoint' => env('FCM_ENDPOINT', 'https://fcm.googleapis.com/fcm/send'),
 
     /**
      * Device Group Manager endpoing.
      */
-    'dgm_endpoint' => env('DGM_ENDPOINT'),
+    'dgm_endpoint' => env('DGM_ENDPOINT', 'https://android.googleapis.com/gcm/notification'),
 
     /**
      * Run the Exceptions triggering behaviour.

@@ -110,7 +110,7 @@ it returns:
 [
     'delivered' => [device_token, device_token, ..., device_token],
     'undelivered' => [device_token, device_token, ..., device_token],
-    'shouldBeDeleted => [device_token, device_token, ..., device_token],
+    'shouldBeDeleted' => [device_token, device_token, ..., device_token],
     'shouldBeResend' => [device_token, device_token, ..., device_token]
 ]
 ```
